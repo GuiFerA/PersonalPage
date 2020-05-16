@@ -1,0 +1,31 @@
+body {
+	background-color: green;
+	background-image: url("https://images.all-free-download.com/images/wallpapers_large/iceland039s_ring_road_12955.jpg");
+	background-size: 100vw 100vh;
+	font-family: verdana;
+	height: 100vh; /*aparece o scroll*/
+}
+.menu {
+	background-color: whitesmoke;
+}
+.menu li {
+	list-style: none;
+	font-family: verdana;
+	font-style: italic;
+}
+.menu ul {
+	display: flex; /*tudo virou coluna*/
+	justify-content: space-around;
+}
+.a {
+	text-decoration: none;
+}
+.sbt,
+.ttl {
+	text-align: center;
+	color: whitesmoke;
+	/*color: whitesmoke;*/
+}
+.sbt {
+	font-style: italic;
+}
